@@ -96,6 +96,7 @@ function Calculate(){
 document.addEventListener('keydown', function(event){
     console.log('key pressed', event.key);
 
+    //Custom keydown event listeners
     if (event.key >= '0' && event.key <= '9') {
         appendToDisplay(event.key);
     } else if (event.key === '.') {
